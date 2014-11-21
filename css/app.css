@@ -1,0 +1,28 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: grey;
+}
+
+svg{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+@media all and (min-width:800px) {
+    li{
+        height: 200px;
+        display: block;
+    }
+
+    li li{
+        display: inline-block;
+        width: 200px;
+    }
+
+    li li a{
+        display: block;
+    }
+}
